@@ -1,4 +1,4 @@
-chidori-superbuild
+crx10ial-superbuild
 ==
 
 Superbuild extension for packages on the CHIDORI robot
@@ -14,8 +14,8 @@ Usage
 
 For example:
 ```cmake
-set(CHIDORI_DIR ${CMAKE_CURRENT_LIST_DIR}/chidori-superbuild)
-include(${CHIDORI_DIR}/chidori.cmake)
+set(CHIDORI_DIR ${CMAKE_CURRENT_LIST_DIR}/crx10ial-superbuild)
+include(${CHIDORI_DIR}/crx10ial.cmake)
 ```
 
 Note: the name of the file (`local.cmake`) does not matter as long as it ends with the `.cmake` extension
